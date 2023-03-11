@@ -1,9 +1,0 @@
-from numba import cuda
-@cuda.jit
-def check(prime,inv1,inv2,inv3,inv4,inv5,inv6,inv7):
-      # Get the global thread index
-    tx = cuda.threadIdx.x
-    bx = cuda.blockIdx.x
-    bw = cuda.blockDim.x
-    c=prime[tx]+tx*inv1[tx]
-    if

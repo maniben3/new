@@ -1,12 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <head>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio delectus, magnam, rerum vero doloremque a quis sequi saepe obcaecati nulla alias quae modi nesciunt omnis animi laborum, fugit iste. Debitis nostrum corporis omnis nam molestiae adipisci esse eos alias possimus asperiores, similique fuga atque officia, iure impedit officiis exercitationem praesentium ratione at provident distinctio velit qui natus! Quisquam excepturi harum numquam, eveniet vitae placeat nesciunt laboriosam nostrum eligendi corporis! At, fugiat doloremque iusto eaque dolorum numquam corporis assumenda illo repellendus, nam iste laudantium impedit ipsum rem explicabo nemo. At commodi praesentium consequuntur voluptas beatae voluptatum recusandae odio ipsum vel quos.</head>
-</body>
+    <style>
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+        .box{
+            width: 100px;
+            height: 120px;
+            border: 5px solid red;
+            overflow: hidden;
+            position: relative;
+            animation: rotate 5s linear infinite;
+        }
+        .crash{
+            width: 100px;
+            height: 120px;
+            border: 5px solid red;
+            overflow: hidden;
+            position: relative;
+        }
+    </style>
+  </head>
+
+  <body>
+    <head>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+      delectus, magnam, rerum vero doloremque a quis sequi saepe obcaecati nulla
+      alias quae modi nesciunt omnis animi laborum, fugit iste. Debitis nostrum
+      corporis omnis nam molestiae adipisci esse eos alias possimus asperiores,
+      similique fuga atque officia, iure impedit officiis exercitationem
+      praesentium ratione at provident distinctio velit qui natus! Quisquam
+      excepturi harum numquam, eveniet vitae placeat nesciunt laboriosam nostrum
+      eligendi corporis! At, fugiat doloremque iusto eaque dolorum numquam
+      corporis assumenda illo repellendus, nam iste laudantium impedit ipsum rem
+      explicabo nemo. At commodi praesentium consequuntur voluptas beatae
+      voluptatum recusandae odio ipsum vel quos.
+    </head>
+    <div>
+      <li>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          delectus, magnam, rerum vero doloremque a quis sequi saepe obcaecati
+          nulla alias quae modi nesciunt omnis animi laborum, fugit iste.
+          Debitis nostrum corporis omnis nam molestiae adipisci esse eos alias
+          possimus asperiores, similique fuga atque officia, iure impedit
+          officiis exercitationem praesentium ratione at provident distinctio
+          velit qui natus! Quisquam excepturi harum numquam, eveniet vitae
+          placeat nesciunt laboriosam nostrum eligendi corporis! At, fugiat
+          doloremque iusto eaque dolorum numquam corporis assumenda illo
+          repellendus, nam iste laudantium impedit ipsum rem explicabo nemo. At
+          commodi praesentium consequuntur voluptas beatae voluptatum recusandae
+          odio ipsum vel quos.
+        </p>
+      </li>
+      <li>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          delectus, magnam, rerum vero doloremque a quis sequi saepe obcaecati
+          nulla alias quae modi nesciunt omnis animi laborum, fugit iste.
+          Debitis nostrum corporis omnis nam molestiae adipisci esse eos alias
+          possimus asperiores, similique fuga atque officia, iure impedit
+          officiis exercitationem praesentium ratione at provident distinctio
+          velit qui natus! Quisquam excepturi harum numquam, eveniet vitae
+          placeat nesciunt laboriosam nostrum eligendi corporis! At, fugiat
+          doloremque iusto eaque dolorum numquam corporis assumenda illo
+          repellendus, nam iste laudantium impedit ipsum rem explicabo nemo. At
+          commodi praesentium consequuntur voluptas beatae voluptatum recusandae
+          odio ipsum vel quos.
+        </p>
+      </li>
+      <li>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          delectus, magnam, rerum vero doloremque a quis sequi saepe obcaecati
+          nulla alias quae modi nesciunt omnis
+        </p>
+      </li>
+    </div>
+    <div class="box"  style="border: solid  blue 5px  ; color: blue; display: inline-block">
+      <ul>
+        <li>1. jack 22</li>
+        <li>2. jill 23</li>
+        <li>3. john 24</li>
+        <li>4. jess 25</li>
+        <li>5. josh 26</li>
+        <li>6. jenny 27</li>
+      </ul>
+    </div>
+    <div>
+    <!--animation to rotate ul list-->
+        <ul class="box">
+            <li>1. jack 22</li>
+            <li>2. jill 23</li>
+            <li>3. john 24</li>
+            <li>4. jess 25</li>
+            <li>5. josh 26</li>
+            <li>6. jenny 27</li>
+        </ul>           
+    </div>
+    <!--simple animation to show crash of square and circle-->
+    <div class="crash" style="border: solid  red 5px  ; color: red; display: inline-block">
+      <ul>
+        <li>1. jack 22</li>
+        <li>2. jill 23</li>
+        <li>3. john 24</li>
+        <li>4. jess 25</li>
+        <li>5. josh 26</li>
+        <li>6. jenny 27</li>
+      </ul>
+  </body>
 </html>
